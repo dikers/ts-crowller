@@ -103,3 +103,4 @@ cdk.context.json
 *data
 
 *.js
+package-lock.json

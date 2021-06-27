@@ -9,11 +9,8 @@ import path from 'path';
 
 
 export interface Analyzer{
-
   analyze: (html: string, filePath: string) => string;
-
 }
-
 
 class Crowller {
   private filePath = path.resolve(__dirname, '../data/course.json');
