@@ -101,6 +101,6 @@ cdk.context.json
 *node_modules
 
 *data
-
 *.js
-package-lock.json
+/build
+/dist
