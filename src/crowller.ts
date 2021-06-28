@@ -36,9 +36,11 @@ class Crowller {
 }
 
 
-const secret = 'x3b174jsx';
-const  url = 
-  `http://www.dell-lee.com/typescript/demo.html?secret=${secret}` ;
+// const secret = 'x3b174jsx';
+// const  url = 
+//   `http://www.dell-lee.com/typescript/demo.html?secret=${secret}` ;
 
-const analyzer = DellAnalyzer.getInstance();
-const crowller = new Crowller(url, analyzer);
+// const analyzer = DellAnalyzer.getInstance();
+// const crowller = new Crowller(url, analyzer);
+
+export default Crowller;

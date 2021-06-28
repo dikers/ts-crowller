@@ -15,3 +15,15 @@ npm install -D  @types/superagent
 
 npm run dev
 ```
+
+#npm 换源
+
+```
+npm config set registry https://registry.npm.taobao.org
+
+npm config get registry
+
+$ https://registry.npmjs.org/
+
+
+```
